@@ -1,7 +1,7 @@
 /* Page created by Nelson Dominguez Martinez - 2025 */
 
 body {
-  background: url('Images/FondoCastillo.png') no-repeat center center fixed;
+  background: url('FondoCastillo.png') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   height: 100vh;
