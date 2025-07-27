@@ -1,0 +1,29 @@
+/* Page created by Nelson Dominguez Martinez - 2025 */
+
+body {
+  background: url('Images/FondoCastillo.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.particula {
+  position: absolute;
+  background-color: #ff3333;
+  border-radius: 50%;
+  opacity: 0.8;
+  pointer-events: none;
+  animation: movimiento 15s linear infinite;
+}
+
+@keyframes movimiento {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(var(--endX), var(--endY));
+  }
+}
+
+/* Page created by Nelson Dominguez Martinez - 2025 */
